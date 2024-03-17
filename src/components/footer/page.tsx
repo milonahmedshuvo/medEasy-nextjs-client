@@ -10,7 +10,7 @@ const FooterPage = () => {
 
 
 
-           <div className='flex justify-center'>
+           <div className='flex justify-center py-2'>
             <div className='w-[450px] border'>
                 <p className='text-xl font-semibold'>MedEasy</p>
             </div>
@@ -41,7 +41,7 @@ const FooterPage = () => {
 
 
         {/* line 2  */}
-        <div className='flex justify-center my-4'>
+        <div className='flex justify-center my-4 py-2'>
             <div className='w-[450px] border'>
                 <p className='text-xl font-semibold'>About us</p>
             </div>
@@ -57,8 +57,42 @@ const FooterPage = () => {
 
 
 
-           {/* line 4  */}
-           <div className='flex justify-center my-4'>
+          
+         {/* line 4  */}
+         <div className='flex justify-center py-2'>
+            <div className='w-[450px] border'>
+                <p className='text-xl font-semibold'>MedEasy</p>
+            </div>
+
+            <div className='w-[250px] border'>
+                <div className='bg-[#25A8D6] w-[70px] h-[60px] md:w-[70px] md:h-[60px] rounded-xl flex justify-center items-center'>
+                      <Image 
+                      src="https://medeasy.health/icons/footer-messages.svg"
+                      width={30}
+                      height={30}
+                      alt='logo'
+                       />
+                </div>
+            </div>
+
+            <div className='w-[250px] border'>
+            <div className='bg-[#25A8D6] w-[70px] h-[60px] rounded-xl flex justify-center items-center'>
+                      <Image 
+                      src="https://medeasy.health/icons/footer-messages.svg"
+                      width={30}
+                      height={30}
+                      alt='logo'
+                       />
+                </div>
+            </div>
+           </div>
+
+
+
+
+
+ {/* line 5  */}
+ <div className='flex justify-center my-4 py-2'>
             <div className='w-[450px] border'>
                 <p className='text-lg font-semibold'>Return and Refund Policy</p>
             </div>
@@ -73,12 +107,32 @@ const FooterPage = () => {
             <p>TRAD/DNCC/131766/2022</p>
             </div>
            </div>
+
+
+
+
+           {/* line 6  */}
+            <div className='flex justify-center my-4'>
+            <div className='w-[450px] border'>
+            <Image
+          src="https://medeasy.health/assets/images/medEasyIcon.svg"
+          width={60}
+          height={500}
+          alt="Picture of the author"
+        />
+            </div>
+
+            
+
+            <div className='w-[500px] border'>
+            
+            
+            </div>
+           </div>
         
 
 
-
-
-
+        
 
         </div>
     );
