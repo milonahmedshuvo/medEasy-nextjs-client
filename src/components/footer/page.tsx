@@ -128,6 +128,7 @@ const FooterPage = () => {
             
             
             </div>
+            
            </div>
         
 
