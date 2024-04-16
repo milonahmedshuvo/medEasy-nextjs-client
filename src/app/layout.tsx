@@ -26,8 +26,12 @@ export default function RootLayout({
      
       <body className={inter.className}>
         <HeaderPage/>
-      
+        <div className="flex flex-col md:flex-row justify-start  ">
+
+        <div className="text-black font-bold text-3xl border-red-500 border-2 sm:w-full md:w-[300px]">itemssss</div>
+
         {children}
+        </div>
 
         <FooterPage/>
         </body>  

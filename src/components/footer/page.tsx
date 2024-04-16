@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
 
+
+
+
 const FooterPage = () => {
     return (
         <div className='bg-[#000000] py-20'>
-           <h1>Footer page </h1>
+           
 
 
 
@@ -12,7 +15,7 @@ const FooterPage = () => {
 
            <div className='flex justify-center py-2'>
             <div className='w-[450px] border'>
-                <p className='text-xl font-semibold'>MedEasy</p>
+                <p className='text-xl font-semibold text-white'>MedEasy</p>
             </div>
 
             <div className='w-[250px] border'>
@@ -43,15 +46,15 @@ const FooterPage = () => {
         {/* line 2  */}
         <div className='flex justify-center my-4 py-2'>
             <div className='w-[450px] border'>
-                <p className='text-xl font-semibold'>About us</p>
+                <p className='text-xl font-semibold text-white'>About us</p>
             </div>
 
             <div className='w-[250px] border'>
-                <p>Email:support@medeasy.health</p>
+                <p className='text-white'>Email:support@medeasy.health</p>
             </div>
 
             <div className='w-[250px] border'>
-            <p>Level:3, Road: 14,C 180/6,</p>
+            <p className='text-white'>Level:3, Road: 14,C 180/6,</p>
             </div>
            </div>
 
@@ -61,7 +64,7 @@ const FooterPage = () => {
          {/* line 4  */}
          <div className='flex justify-center py-2'>
             <div className='w-[450px] border'>
-                <p className='text-xl font-semibold'>MedEasy</p>
+                <p className='text-xl font-semibold text-white'>MedEasy</p>
             </div>
 
             <div className='w-[250px] border'>
@@ -94,17 +97,17 @@ const FooterPage = () => {
  {/* line 5  */}
  <div className='flex justify-center my-4 py-2'>
             <div className='w-[450px] border'>
-                <p className='text-lg font-semibold'>Return and Refund Policy</p>
+                <p className='text-lg font-semibold text-white'>Return and Refund Policy</p>
             </div>
 
             <div className='w-[250px] border'>
-                <p>01844671112</p>
-                <p>01774671112</p>
+                <p className='text-white'>01844671112</p>
+                <p className='text-white'>01774671112</p>
             </div>
 
             <div className='w-[250px] border'>
-            <p>Trade License:</p>
-            <p>TRAD/DNCC/131766/2022</p>
+            <p className='text-white'>Trade License:</p>
+            <p className='text-white'>TRAD/DNCC/131766/2022</p>
             </div>
            </div>
 

@@ -1,0 +1,35 @@
+[
+    {
+      "category": "OTC Medicine",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2Fdrugs.png&w=96&q=75"
+    },
+    {
+      "category": "Women's Choice",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2Fwoman.png&w=32&q=75"
+    },
+    {
+      "category": "Diabetic Care",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2FDiabetics-Care.png&w=32&q=75"
+    },
+    {
+      "category": "Baby Care",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2Fbaby-boy.png&w=32&q=75"
+    },
+    {
+      "category": "Dental Care",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2Fdental_care_1SkbT7S.png&w=32&q=75"
+    },
+    {
+      "category": "Personal Care",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2FPersonal-Care.png&w=32&q=75"
+    },
+    {
+      "category": "Devices",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2Fglucosemeter.png&w=32&q=75"
+    },
+    {
+      "category": "Prescription Medicine",
+      "image": "https://medeasy.health/_next/image?url=https%3A%2F%2Fcdn.medeasy.health%2Fmedia%2Fmedicines%2Fcategories%2Fmedical-prescription.png&w=32&q=75"
+    }
+    
+  ]
