@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'medeasy.health',
+            port: '',
+            pathname: '',
+          },
+        ],
+      },
+};
 
 export default nextConfig;
