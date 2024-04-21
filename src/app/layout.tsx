@@ -6,6 +6,7 @@ import HeaderPage from "./header/page";
 import FooterPage from "@/components/footer/page";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { FaAngleRight } from "react-icons/fa6";
+import Link from "next/link";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,18 +32,19 @@ const RootLayout = async ({
         <HeaderPage />
         <div className="flex flex-col md:flex-row justify-start  ">
 
-          <div className=" w-full md:w-1/5 ml-4  pr-3">
+          <div className=" w-full md:w-1/5 ml-4  pr-3 ">
             {categoris.map(
               (
                 category: { image:string, category: string },
                 i: string
               ) => (
-                <div key={i} className="flex justify-between items-center my-12 ">
+                <Link href={`/category/${category.category}`} key={i} className="flex justify-between items-center my-12 ">
                   <div className="flex gap-2">
                    
 
                     <img src={category.image} alt="categoriImage" className="w-[30px]" />
 
+                    
                     <p className="text-lg font-medium text[#000000]">
                       {category.category}
                     </p>
@@ -51,7 +53,7 @@ const RootLayout = async ({
                   <div>
                     <p className="text-lg font-normal"> <FaAngleRight/> </p>
                   </div>
-                </div>
+                </Link>
               )
             )}
           </div>
