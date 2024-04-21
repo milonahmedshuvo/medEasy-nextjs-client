@@ -30,7 +30,8 @@ const RootLayout = async ({
       <body className={inter.className}>
         <HeaderPage />
         <div className="flex flex-col md:flex-row justify-start  ">
-          <div className="text-black font-bold text-3xl border-red-500 border-2 sm:w-full md:w-[300px] ml-4 bg-[#F9F9F9] shadow-xl">
+
+          <div className=" w-full md:w-1/5 ml-4  pr-3">
             {categoris.map(
               (
                 category: { image:string, category: string },
@@ -55,7 +56,11 @@ const RootLayout = async ({
             )}
           </div>
 
-          {children}
+          {/* all home components  */}
+          <div className="border w-4/5">
+            {children}
+          </div>
+
         </div>
 
         {/* <FooterPage/> */}
@@ -66,28 +71,4 @@ const RootLayout = async ({
 
 export default RootLayout;
 
-// const  RootLayout = async ({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>) => {
 
-//   return (
-//     <html lang="en">
-
-//       <body className={inter.className}>
-//         <HeaderPage/>
-//         <div className="flex flex-col md:flex-row justify-start  ">
-
-//         <div className="text-black font-bold text-3xl border-red-500 border-2 sm:w-full md:w-[300px]">itemssss</div>
-
-//         {children}
-//         </div>
-
-//         <FooterPage/>
-//         </body>
-//     </html>
-//   );
-// }
-
-// export default RootLayout;

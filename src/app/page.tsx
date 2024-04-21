@@ -1,3 +1,4 @@
+import Carousel from '@/components/Carousel/Carousel';
 import React from 'react'
 
 const page = async () => {
@@ -6,8 +7,7 @@ const page = async () => {
 
   return (
     <div>
-       <h2 className='text-red-500 text-2xl font-medium'>Home page </h2>
-       <p>homeeeeeeeeeeee</p>
+       <Carousel/>
     </div>
   )
 }
