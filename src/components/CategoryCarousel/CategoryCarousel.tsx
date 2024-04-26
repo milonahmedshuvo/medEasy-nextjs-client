@@ -38,16 +38,20 @@ const CategoryCarousel = () => {
   };
 
   return (
-    <div className="flex items-center justify-between mt-10">
+    <div className='mt-10'>
+      <p className='font-medium text-xl'>Product Categories</p>
+
+
+     <div className="flex items-center justify-between mt-5">
       <button
         onClick={prevSlide}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-l"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-full"
       >
         <FaAngleLeft/>
       </button>
-      <div className="flex space-x-4 overflow-hidden">
+      <div className="flex space-x-6 overflow-hidden ">
         {items.slice(startIndex, startIndex + 5).map((product) => (
-          <div key={product._id} className="border rounded-lg py-4 px-12 flex flex-col justify-center items-center ">
+          <div key={product._id} className="border rounded-xl py-4 px-10 flex flex-col justify-center items-center ">
             <img src={product.image} alt="categoriImage" className='w-[80px]' />
             <p className='font-medium mt-5'>{product.category}</p>
           </div>
@@ -56,11 +60,13 @@ const CategoryCarousel = () => {
       </div>
       <button
         onClick={nextSlide}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4  rounded-full"
       >
         {/* Next */}
         <FaAngleRight/>
       </button>
+    </div>
+
     </div>
   );
 };
