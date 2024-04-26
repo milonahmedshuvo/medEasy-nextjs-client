@@ -4,7 +4,7 @@ import React from "react";
 
 const HeaderPage = () => {
   return (
-    <div className="bg-[#25A8D6]">
+    <div className="bg-[#25A8D6] py-3">
 
       <div className="flex items-center text-white text-xl font-medium">
         <Image
